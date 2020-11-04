@@ -377,7 +377,7 @@ autoencoder <- h2o.deeplearning(x = predictors,
                                 autoencoder = TRUE,
                                 seed = 1234,
                                 hidden = c(4), 
-                                epochs = 100,
+                                epochs = 500,
                                 activation = "Tanh",
                                 validation_frame = test)
 
@@ -429,7 +429,7 @@ deep_net <- h2o.deeplearning(y = response,
                              ignore_const_cols = FALSE,
                              seed = 1234,
                              hidden = c(5, 5), 
-                             epochs = 100,
+                             epochs = 500,
                              activation = "Tanh")
 
 ## Make predictions & classify
