@@ -17,7 +17,7 @@
 
 # Preliminaries: 
 #   1. Visit the repo for this talk for the two data sets we will use for the examples: https://github.com/pdwaggoner/gasp2020
-#   2. Make sure you have the latest version of the JDK installed on your machine for H2O to work (if not, no worries, just follow along)
+#   2. Make sure you have the latest version of the JDK (https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) installed on your machine for H2O to work. If not, no worries, just follow along.
 
 
 # External ML Engines
