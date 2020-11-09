@@ -51,7 +51,7 @@
 
 # Autoencoders
 
-# Two major steps, using on a neural network architecture: encode and decode
+# Two major steps, built on a neural network architecture: encode and decode
 
 # These seek to also learn from data, but in an unsupervised way. Take raw unlabeled inputs, encode them (force information loss) based on natural patterns in the input space, and thus project onto a lower dimension. Then, reconstruct (decode) the original input space, but this time based only on the encoding from the first step. 
 
